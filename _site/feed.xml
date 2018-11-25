@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://0.0.0.0/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0/" rel="alternate" type="text/html" /><updated>2018-11-25T23:45:06+09:00</updated><id>http://0.0.0.0/feed.xml</id><title type="html">Jemijin</title><subtitle>An amazing website.</subtitle><author><name>Changlo Ricky Lee</name><email>changlo.lee@gmail.com</email></author><entry><title type="html">Welcome to jemijin</title><link href="http://0.0.0.0/hello/init/" rel="alternate" type="text/html" title="Welcome to jemijin" /><published>2018-01-11T01:11:00+09:00</published><updated>2018-01-11T01:11:00+09:00</updated><id>http://0.0.0.0/hello/init</id><content type="html" xml:base="http://0.0.0.0/hello/init/">&lt;h1 id=&quot;minimal-mistakes-jekyll-theme&quot;&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes Jekyll Theme&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/license-MIT-lightgrey.svg&quot; alt=&quot;LICENSE&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://rubygems.org/gems/minimal-mistakes-jekyll&quot;&gt;&lt;img src=&quot;https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg&quot; alt=&quot;Ruby gem&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.paypal.me/mmistakes&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal&quot; alt=&quot;Tip Me via PayPal&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies – styling is purposely minimalistic to be enhanced and customized by you :smile:.&lt;/p&gt;
+
+&lt;p&gt;:sparkles: See what’s new in the &lt;a href=&quot;CHANGELOG.md&quot;&gt;CHANGELOG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The theme uses the &lt;a href=&quot;https://github.com/benbalter/jekyll-include-cache&quot;&gt;jekyll-include-cache&lt;/a&gt; plugin which will need to be installed in your &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and added to the &lt;code class=&quot;highlighter-rouge&quot;&gt;plugins&lt;/code&gt; array of &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. Otherwise you’ll throw &lt;code class=&quot;highlighter-rouge&quot;&gt;Unknown tag 'include_cached'&lt;/code&gt; errors at build.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;&lt;img src=&quot;screenshot.png (live preview)&quot; alt=&quot;Minimal Mistakes live preview&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;screenshot-layouts.png&quot; alt=&quot;layout examples&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bundled as a “theme gem” for easier install/upgrading.&lt;/li&gt;
+  &lt;li&gt;Compatible with GitHub Pages.&lt;/li&gt;
+  &lt;li&gt;Support for Jekyll’s built-in Sass/SCSS preprocessor.&lt;/li&gt;
+  &lt;li&gt;Nine different skins (color variations).&lt;/li&gt;
+  &lt;li&gt;Several responsive layout options (single, archive index, search, splash, and paginated home page).&lt;/li&gt;
+  &lt;li&gt;Optimized for search engines with support for &lt;a href=&quot;https://dev.twitter.com/cards/overview&quot;&gt;Twitter Cards&lt;/a&gt; and &lt;a href=&quot;http://ogp.me/&quot;&gt;Open Graph&lt;/a&gt; data&lt;/li&gt;
+  &lt;li&gt;Optional &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers&quot;&gt;header images&lt;/a&gt;, &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars&quot;&gt;custom sidebars&lt;/a&gt;, &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents&quot;&gt;table of contents&lt;/a&gt;, &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery&quot;&gt;galleries&lt;/a&gt;, related posts, &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta&quot;&gt;breadcrumb links&lt;/a&gt;, &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list&quot;&gt;navigation lists&lt;/a&gt;, and more.&lt;/li&gt;
+  &lt;li&gt;Commenting support (powered by &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;, &lt;a href=&quot;https://developers.facebook.com/docs/plugins/comments&quot;&gt;Facebook&lt;/a&gt;, Google+, &lt;a href=&quot;https://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt;, static-based via &lt;a href=&quot;https://staticman.net/&quot;&gt;Staticman v1 and v2&lt;/a&gt;, and custom).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; support.&lt;/li&gt;
+  &lt;li&gt;UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Nepali (Nepalese), Polish, Romanian, Russian, Slovak, Spanish (Español), Swedish, Turkish (Türkçe), and Vietnamese.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;skins-color-variations&quot;&gt;Skins (Color Variations)&lt;/h2&gt;
+
+&lt;p&gt;This theme comes in nine different skins (including the default one).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;air&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;contrast&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dark&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png&quot; alt=&quot;air skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png&quot; alt=&quot;contrast skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png&quot; alt=&quot;dark skin&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dirt&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mint&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sunrise&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png&quot; alt=&quot;dirt skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png&quot; alt=&quot;mint skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png&quot; alt=&quot;sunrise skin&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;aqua&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;neon&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;plum&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png&quot; alt=&quot;aqua skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png&quot; alt=&quot;neon skin&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png&quot; alt=&quot;plum skin&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;demo-pages&quot;&gt;Demo Pages&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/&quot;&gt;Post with Header Image&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A post with a large header image.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/&quot;&gt;HTML Tags and Formatting Post&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A variety of common markup showing how the theme styles them.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/&quot;&gt;Syntax Highlighting Post&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Post displaying highlighted code.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/&quot;&gt;Post with a Gallery&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A post showing several images wrapped in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/&quot;&gt;Sample Collection Page&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Single page from a collection.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/categories/&quot;&gt;Categories Archive&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Posts grouped by category.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/tags/&quot;&gt;Tags Archive&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Posts grouped by tag.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Additional sample posts are available under &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/year-archive/&quot;&gt;posts archive&lt;/a&gt; on the demo site. Source files for these (and the entire demo site) can be found in &lt;a href=&quot;docs&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/docs&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;There are three ways to install the theme: as a Ruby gem (for self-hosted sites), as a Ruby gem + jekyll-remote-theme plugin (GitHub Pages hosted sites), or forking/directly copying all of the theme files into your project.&lt;/p&gt;
+
+&lt;h3 id=&quot;ruby-gem-method&quot;&gt;Ruby Gem Method&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install the theme as a Ruby Gem by adding it to your &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; like so:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
+   gem &quot;minimal-mistakes-jekyll&quot;
+     &lt;/code&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+     ```bash
+        bundle
+           ```
+
+           3. Set the `theme` in your project's Jekyll `_config.yml` file:
+
+              ```yaml
+                 theme: minimal-mistakes-jekyll
+                    ```
+
+                    To update the theme run `bundle update`.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;github-pages-method&quot;&gt;GitHub Pages Method&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                         1. Create/replace the contents of your `Gemfile` with the following:
+
+                            ```ruby
+                               source &quot;https://rubygems.org&quot;
+
+                                  gem &quot;github-pages&quot;, group: :jekyll_plugins
+                                     ```
+
+                                     2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+                                        ```bash
+                                           bundle
+                                              ```
+
+                                              3. Add `remote_theme: &quot;mmistakes/minimal-mistakes&quot;` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+
+                                              ---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;contributing&quot;&gt;Contributing&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+
+                                              Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
+
+                                              This goes for author sidebar links and &quot;share button&quot; additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;pull-requests&quot;&gt;Pull Requests&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              When submitting a pull request:
+
+                                              1. Clone the repo.
+                                              2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`).
+                                              3. Open a pull request on GitHub and describe the feature or fix.
+
+                                              Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              To set up your environment to develop this theme, run `bundle install`.
+
+                                              To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
+
+                                              ---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+
+&lt;h3 id=&quot;creator&quot;&gt;Creator&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              **Michael Rose**
+
+                                              - &amp;lt;https://mademistakes.com&amp;gt;
+                                              - &amp;lt;https://twitter.com/mmistakes&amp;gt;
+                                              - &amp;lt;https://github.com/mmistakes&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;icons--demo-images&quot;&gt;Icons + Demo Images:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              - [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
+                                              - [Font Awesome](http://fontawesome.io/)
+                                              - [Unsplash](https://unsplash.com/)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other:&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              - [Jekyll](http://jekyllrb.com/)
+                                              - [jQuery](http://jquery.com/)
+                                              - [Susy](http://susy.oddbird.net/)
+                                              - [Breakpoint](http://breakpoint-sass.com/)
+                                              - [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+                                              - [FitVids.JS](http://fitvidsjs.com/)
+                                              - [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav)
+                                              - [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
+                                              - [Lunr](http://lunrjs.com)
+
+                                              ---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                              The MIT License (MIT)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Copyright (c) 2013-2018 Michael Rose and contributors&lt;/p&gt;
+
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the “Software”), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:&lt;/p&gt;
+
+&lt;p&gt;The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.&lt;/p&gt;
+
+&lt;p&gt;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates icons from &lt;a href=&quot;https://thenounproject.com/&quot;&gt;The Noun Project&lt;/a&gt; 
+  creators Garrett Knoll, Arthur Shlain, and tracy tam.
+  Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt;,
+  Copyright (c) 2017 Dave Gandy.
+  Font Awesome is distributed under the terms of the &lt;a href=&quot;http://scripts.sil.org/OFL&quot;&gt;SIL OFL 1.1&lt;/a&gt; 
+  and &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates photographs from &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;http://susy.oddbird.net/&quot;&gt;Susy&lt;/a&gt;,
+  Copyright (c) 2017, Miriam Eric Suzanne.
+  Susy is distributed under the terms of the &lt;a href=&quot;https://opensource.org/licenses/BSD-3-Clause&quot;&gt;BSD 3-clause “New” or “Revised” License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;http://breakpoint-sass.com/&quot;&gt;Breakpoint&lt;/a&gt;.
+  Breakpoint is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT/GPL Licenses&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;https://github.com/davatron5000/FitVids.js/&quot;&gt;FitVids.js&lt;/a&gt;,
+  Copyright (c) 2013 Dave Rubert and Chris Coyier.
+  FitVids is distributed under the terms of the &lt;a href=&quot;http://sam.zoy.org/wtfpl/&quot;&gt;WTFPL License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;http://dimsemenov.com/plugins/magnific-popup/&quot;&gt;Magnific Popup&lt;/a&gt;,
+  Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com.
+  Magnific Popup is distributed under the terms of the MIT License.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;https://github.com/kswedberg/jquery-smooth-scroll&quot;&gt;jQuery Smooth Scroll&lt;/a&gt;,
+  Copyright (c) 2017 Karl Swedberg.
+  jQuery Smooth Scroll is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;https://github.com/lukejacksonn/GreedyNav&quot;&gt;GreedyNav.js&lt;/a&gt;,
+  Copyright (c) 2015 Luke Jackson.
+  GreedyNav.js is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;https://github.com/mushishi78/jekyll-group-by-array&quot;&gt;Jekyll Group-By-Array&lt;/a&gt;,
+  Copyright (c) 2015 Max White &lt;a href=&quot;mailto:mushishi78@gmail.com&quot;&gt;mushishi78@gmail.com&lt;/a&gt;.
+  Jekyll Group-By-Array is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;https://allejo.io/blog/a-jekyll-toc-in-liquid-only/&quot;&gt;@allejo’s Pure Liquid Jekyll Table of Contents&lt;/a&gt;,
+  Copyright (c) 2017 Vladimir Jimenez.
+  Pure Liquid Jekyll Table of Contents is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimal Mistakes incorporates &lt;a href=&quot;http://lunrjs.com&quot;&gt;Lunr&lt;/a&gt;,
+  Copyright (c) 2018 Oliver Nightingale.
+  Lunr is distributed under the terms of the &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;</content><author><name>Changlo Ricky Lee</name><email>changlo.lee@gmail.com</email></author><category term="hello" /><summary type="html">Minimal Mistakes Jekyll Theme</summary></entry></feed>
