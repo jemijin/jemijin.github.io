@@ -103,10 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "changlo.lee"
+  name             : "changlo.lee (ricky)"
   gravatar         : "477d9202cb0efec67a80961c9027a64f" # md5 hash of your email address
   avatar           : "http://www.gravatar.com/avatar/477d9202cb0efec67a80961c9027a64f?s=250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Cloud Guy. I'm interested in Virtualization, Docker, Kubernetes"
+  bio              : "“I can accept failure, everyone fails at something. But I can't accept not trying.”"
   location         : "Seoul, Republic of Korea"
   email            : "changlo.lee@gmail.com"
   links:

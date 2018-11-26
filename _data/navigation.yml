@@ -4,9 +4,11 @@ main:
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 #   - title: "About"
 #   url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "year"
-     url: /year/
+   - title: "cloud"
+     url: /cloud/
+   - title: "languages"
+     url: /lang/
+   - title: "projects"
+     url: /project/
    - title: "tags"
      url: /tags/
-   - title: "category"
-     url: /categories/
