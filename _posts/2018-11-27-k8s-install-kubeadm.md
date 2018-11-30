@@ -27,16 +27,16 @@ tags:
 * federated identity(여합된 신원?)
 * delegated authority(권한위임)
 
-'''
+```
 OAuth의 실제 예
 * 페이스북 계정으로 쇼핑몰 사이트 가입/로그인
 * 스마트폰에서 페이스북 모바일 어플리케이션을 이요해 상태를 업데이트
 * 워드프레스 블로그에 있는것을 pinterest로 핀 하는것
-
+```
 
 
 
 ### ajksdf
-'''
+```
 sudo apt-get install 
-'''
+```
