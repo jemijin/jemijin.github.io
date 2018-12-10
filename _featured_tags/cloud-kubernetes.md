@@ -1,9 +1,9 @@
 ---
 layout: tag-blog
-title: AWS
-slug: aws
-category: devlog
+title: Kubernetes
+slug: kubernetes
+category: cloud
 menu: false
-order: 2
+order: 1
 header-img: "/img/aws-logo.png"
 ---
