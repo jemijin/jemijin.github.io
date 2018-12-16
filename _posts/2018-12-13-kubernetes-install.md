@@ -29,5 +29,19 @@ Kubernetes를 설치하는 방법은 다양하게 많다.
 
 
 
-## kubeadm으로 kubernetes 멀티 노드 구성하기 
+## Local 환경에서 kubeadm으로 kubernetes 멀티 노드 구성하기
 ---
+1. 가상 리눅스 설치 및 환경 구성
+ 1) VM 생성
+ 2) Linux 설치
+ 3) 고정 IP 설정
+ 4) VirtualBox GuestAddition 설치
+ 5) Linux SWAP 비활성화
+
+2. Kubernetes 설치
+ 1) Docker 설치
+ 2) kubenetes tool 설치 (kubeadm, kubectl, kubernetes-cni)
+ 3) Initialize Master
+ 4) Install a CNI (Pod Network)
+ 5) Join Nodes
+ * route setting
