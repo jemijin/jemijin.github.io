@@ -30,7 +30,6 @@ Kubernetes를 설치하는 방법은 다양하게 많다.
 
 
 ## PC에서 kubeadm으로 kubernetes 멀티 노드 구성하기
----
 1. 가상 리눅스 설치 및 환경 구성   
   1) VM 생성  
   2) Linux 설치  
